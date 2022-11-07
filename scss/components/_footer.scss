@@ -1,0 +1,52 @@
+/* Estilo del FOOTER*/
+.foot{
+    position: relative;
+    &__logo{
+        position: fixed;
+        bottom: 90px;
+        right: 0px;
+    }
+    &__enlaces{
+        @include centrado(center);
+        display: flex;
+        align-items:center;
+        padding-bottom: 40px;
+
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            line-height: 1.4;
+            color: rgb(131, 127, 127);
+            font-weight: bold;
+            align-self: center;
+            margin-left: 10px;
+        }
+    }
+}
+
+.footer-rrss{
+    @include centrado(center);
+    display: flex;
+    margin-bottom: 20px;
+
+    //mapa
+    $iconSocialMedia:(
+        instagram:#c92d8f,
+        facebook:#2279e4,
+    );
+
+    //bucle
+    @each $nameSocialMedia, $colorIcon in $iconSocialMedia{
+        .rs-#{$nameSocialMedia}{
+            color:#6e7376;
+            font-size: 20px;
+            transition: 0.3S;
+
+            &:hover{
+                color:$colorIcon;
+            }
+        }
+    }
+
+
+}

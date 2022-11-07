@@ -1,0 +1,14 @@
+/* Estilo del Banner de Inicio */
+
+.header-banner{
+    position:relative;
+
+    &__img{
+        width:100%;
+    }
+    &__logo{
+        padding:9px;
+        border-radius: 20px;
+        position: absolute;
+    }
+}

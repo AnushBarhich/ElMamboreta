@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ina Desing - About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css"/>
 </head>
+
 <body>
+     <!-- Encabezado -->
+    <header>
+
+        <div class="header-banner">
+            <!-- Imagen Logo de la marca -->
+            <a href="../index.html">
+                <img class="header-banner__logo" src="../assets/images/logo-img-1.jpeg" width="150" height="150" alt="Logo del sitio"/>
+            </a>
+
+            <!-- Imagen Banner de la pagina About us -->
+            <img class="header-banner__img" src="../assets/images/light-modern-sofa.jpg" widht="600" height="900" alt="banner de la pagina About Us"/>
+
+            <!-- Menu de navegacion hacia los demás sitios de la pagina -->
+
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+              <div class="container">
+              <a class="navbar-brand" href="../index.html">INA Desing</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto fw-bold">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/deco-blog.html">Deco Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/about-us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/contact-us.html">Contact Us</a>
+                  </li>
+                  </ul>
+              </div>
+              </div>
+            </nav>    
+        </div>
+
+    </header>
+
+    <main>
+        <section class="about-us-interiorismo">
+            <!-- Imagenes de las casas renovadas -->
+            <div class="container">
+                <h1 class="titulo-principal">¿Quienes somos?</h1>
+                <p class="descripcion-sitio">Somos un equipo de diseño con una trayectoria de 20 años en el rubro. Nuestro objetivo es claro: crear el estilo ideal para cada cliente. Nos abocamos integramente a nuestros proyectos, procurando cumplir todas y cada una de las exigencias de nuestros clientes.
+                </p>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                  <div class="carousel-item active">
+                    <img src="../assets/images/12.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Somos un equipo de diseño con una trayectoria de 20 años en el rubro</h5>
+                      <p> Nuestro objetivo es claro: crear el estilo ideal para cada cliente. Nos abocamos integramente a nuestros proyectos.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/images/living-about-us-nuevas(01).jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Una casa es un nuevo comienzo, es una historia de vida.</h5>
+                      <p>Una casa no es solamente una construcción, es un hogar con recuerdos y anecdotas que sus dueños buscan conservar.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/images/living-about-us-nuevas(12).jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nuestro equipo esta compuesto por diseñadores y arquitectos que dedican su energía a lo que los apasiona: la transformación de espacios.</h5>
+                      <p>INA Desing</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="foot">
+            <div class="foot__logo">
+                <!-- Logo de la marca - devuelve a la pagina principal -->
+                <a href="../index.html">
+                    <img src="../assets/images/logo-img-1.jpeg" width="150" height="150" alt="Logo del sitio"/>
+                </a>
+            </div>
+
+            <!-- Enlaces hacia "contacto" y "sobre nosotros" -->
+            <div class="foot__enlaces">
+                <a href="../pages/contact-us.html">Contact Us</a>
+                <a href="../pages/about-us.html">About Us</a>
+            </div>
+
+        </section>
+
+    </footer>
     
+        
 </body>
 </html>

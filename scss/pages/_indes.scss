@@ -1,0 +1,37 @@
+/* Estilo del enlace "ver mas proyectos" */
+.interiorismo-enlace{
+    position: relative; 
+    
+    &__projects{
+        @include centrado(center);
+        display: flex;
+        align-items:center;
+        padding-bottom: 5px;
+    
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            line-height: 1.4;
+            color: rgb(131, 127, 127);
+            font-weight: bold;
+        }
+    }
+}
+
+/* Estilo Repdroductor de Video*/
+.video{
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+    align-items: center;
+
+    &__reproductor{
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    &__descripcion{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+}

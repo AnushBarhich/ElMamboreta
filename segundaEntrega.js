@@ -1,11 +1,11 @@
 //Modelo de Tienda Online de "El Mamboreta"
 
 //mensaje de bienvenida
-// function imprimirMensaje (){
-//     alert("Bienvenido al Mamboreta");
-// }
+ function imprimirMensaje (){
+    alert("Bienvenido al Mamboreta");
+}
 
-// imprimirMensaje();
+imprimirMensaje();
 
 
 const productos=[]

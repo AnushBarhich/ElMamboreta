@@ -42,7 +42,7 @@ ul{
 .titulo-principal{
     font-family: 'fair';
     font-weight: bold;
-    color: rgb(80, 84, 87);
+    color: rgb(255, 0, 170);
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -120,13 +120,13 @@ ul{
 .proyecto-1__titulo-imagen, .proyecto-2__titulo-imagen, .proyecto-3__titulo-imagen, .proyecto-4__titulo-imagen{
     font-family: 'fairBold';
     font-weight: bold;
-    color:#6e7376;
+    color:#4e584a;
 }
 
 /* ESTILO GENERAL DEL BODY */
 body{
     /* color de fondo */
-    background-color: #faf7f1e0;
+    background-color: #f3cce3e0;
     /* Tipografia */
     font-family: "fair";
     font-style: normal;
@@ -153,7 +153,7 @@ body{
 .decoBlogTitle{
     font-family: 'fairBold';
     font-weight: bold;
-    color:#6e7376;
+    color:#766e73;
 }
 
 //mixin

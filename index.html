@@ -49,20 +49,22 @@
     <main>
         <!--Titulo Principal  -->
         <div class="container">
-            <h1 class="titulo-principal">Mamboreta! para que aprendas jugando</h1>
+            <h1 id="mainTittle1" class="titulo-principal">Mamboreta! para que aprendas jugando</h1>
             <div class="descripcion">
                 <p class="descripcion-sitio" >Recursos Didacticos y articulos de librería personalizados
                 </p>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container text-center" >
             <h1 class="titulo-principal">Tienda Online</h1>
             <div class="descripcion">
                 <select name="lista" id="lista"></select>
-                <button>COMPRAR PRODUCTO</button>
+                <button id="agregar">AGREGAR PRODUCTO</button>
+                <button id="finalizar">FINALIZAR COMPRA</button>
             </div>
         </div>
+
 
         <!-- Imagenes de los productos a la venta -->
         <section class="container">
@@ -122,8 +124,18 @@
             </div>
         </section>
 
+        <!-- formulario para la creacion de eventos -->
+        <div class="container text-center" >
+            <h4 class="titulo-principal">Ingrese sus datos</h4>
+            <form id="formulario">
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                <input type="submit" id="botonDatos" value="Ingresar">
+            </form>
+        </div>
+
         <!-- carousel -->
-        <section class="container my-5">
+        <section class="container my-5" >
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -185,7 +197,7 @@
             <a href="" class="rs-facebook"><i class="bi bi-facebook"></i></a>
         </div>
 
-        <script src="./segundaEntrega.js"></script>
+        <script src="./terceraEntrega.js"></script>
     </footer>
 </body>
 </html>
